@@ -1,0 +1,57 @@
+﻿@using ReederPortal.Models
+@model List<Personel>
+@{
+    ViewData["Title"] = "UnvanDetay";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+
+<h2>@ViewBag.brmu</h2>
+<br />
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Tc Kimlik No</th>
+        <th>Adı</th>
+        <th>Soyadı</th>
+        <th>Doğum Yeri</th>
+        <th>Doğum Tarihi</th>
+        <th>Cinsiyet</th>
+        <th>Sürücü Belgesi</th>
+        <th>Medeni Durumu</th>
+        <th>Eş Çalışma Durumu</th>
+        <th>Çocuk Sayısı</th>
+        <th>Sigara Kullanım Durumu</th>
+        <th>Hobi</th>
+        <th>Mezuniyet</th>
+        <th>İşe Başlama Tarihi</th>
+        <th>Fotograf</th>
+
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <th>@x.PersonelID </th>
+            <th>@x.TcKimlikNo </th>
+            <th>@x.PersonelAd</th>
+            <th>@x.PersonelSoyad</th>
+            <th>@x.DogumYer</th>
+            <th>@x.DogumTarih</th>
+            <th>@x.Cinsiyet</th>
+            <th>@x.SurucuBelgesi</th>
+            <th>@x.MedeniDurum</th>
+            <th>@x.EsCalismaDurum</th>
+            <th>@x.CocukSayisi</th>
+            <th>@x.SigaraKullanimi</th>
+            <th>@x.Hobi</th>
+            <th>@x.Mezuniyet</th>
+            <th>@x.IseBaslamaTarih</th>
+            <th>@x.Fotograf</th>
+
+        </tr>
+    }
+</table>
+

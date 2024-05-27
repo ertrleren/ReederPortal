@@ -1,0 +1,113 @@
+﻿@model ReederPortal.Models.Personel
+@{
+    ViewData["Title"] = "PersonelGetir";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+@using (Html.BeginForm("PersonelGuncelle", "Personelim", FormMethod.Post))
+{
+    <b>Departman ID</b>
+    @Html.TextBoxFor(x => x.PersonelID, new { @class = "form-control", @readonly = "readonly" })
+
+    <br />
+    <b>Ad</b>
+    @Html.TextBoxFor(x => x.PersonelAd, new { @class = "form-control", @readonly = "readonly" })
+
+    <br />
+    <b>Soyad</b>
+    @Html.TextBoxFor(x => x.PersonelSoyad, new { @class = "form-control", @readonly = "readonly" })
+
+    <br />
+
+    <b>Doğum Yeri</b>
+    @Html.TextBoxFor(x => x.DogumYer, new { @class = "form-control" })
+
+    <br />
+
+    <b>Doğum Tarihi</b>
+    @Html.TextBoxFor(x => x.DogumTarih, new { @class = "form-control" })
+
+    <br />
+
+    <b>Cinsiyet</b>
+    @Html.TextBoxFor(x => x.Cinsiyet, new { @class = "form-control" })
+
+    <br />
+
+    <b>Sürücü Belgesi</b>
+    @Html.TextBoxFor(x => x.SurucuBelgesi, new { @class = "form-control" })
+
+    <br />
+
+    <b>Menedi Durum</b>
+    @Html.TextBoxFor(x => x.MedeniDurum, new { @class = "form-control" })
+
+    <br />
+
+    <b>Eş Çalışma Durumu</b>
+    @Html.TextBoxFor(x => x.EsCalismaDurum, new { @class = "form-control" })
+
+    <br />
+
+    <b>Çocuk Sayısı</b>
+    @Html.TextBoxFor(x => x.CocukSayisi, new { @class = "form-control" })
+
+    <br />
+
+    <b>Sigara Kullanımı</b>
+    @Html.TextBoxFor(x => x.SigaraKullanimi, new { @class = "form-control" })
+
+    <br />
+
+    <b>Hobiler</b>
+    @Html.TextBoxFor(x => x.Hobi, new { @class = "form-control" })
+
+    <br />
+
+    <b>Mezuniyet</b>
+    @Html.TextBoxFor(x => x.Mezuniyet, new { @class = "form-control" })
+
+    <br />
+
+    <b>İşe Başlama Tarihi</b>
+    @Html.TextBoxFor(x => x.IseBaslamaTarih, new { @class = "form-control", @readonly = "readonly" })
+
+    <br />
+
+    <b>Fotograf</b>
+    @Html.TextBoxFor(x => x.Fotograf, new { @class = "form-control" })
+
+    <br />
+
+    <b>Departman</b>
+
+
+    @Html.DropDownListFor(x => x.Birim.BirimID, (List<SelectListItem>)ViewBag.Birimler, new { @class = "form-control" })
+
+    <br />
+
+    <b>Unvan</b>
+
+
+    @Html.DropDownListFor(x => x.Unvan.UnvanID, (List<SelectListItem>)ViewBag.Unvanlar, new { @class = "form-control" })
+
+    <br />
+
+    <b>Seviye</b>
+
+
+    @Html.DropDownListFor(x => x.Seviye.SeviyeID, (List<SelectListItem>)ViewBag.Seviyeler, new { @class = "form-control" })
+
+    <br />
+
+    <b>Email</b>
+    @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+    <br />
+
+    <b>Şifre</b>
+    @Html.TextBoxFor(x => x.Sifre, new { @class = "form-control" })
+
+    <br />
+    <button class="btn btn-default" style="background-color:cornflowerblue"> Personel Güncelle </button>
+}
+

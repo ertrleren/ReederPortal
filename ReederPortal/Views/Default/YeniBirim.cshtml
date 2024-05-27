@@ -1,0 +1,22 @@
+﻿@model ReederPortal.Models.Birim
+@{
+    ViewData["Title"] = "YeniBirim";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+
+
+
+<br />  @*Yeni departman ekleme işlemleri 25-26*@
+
+<form class="form-group" method="post">
+
+    <b>Departman Adı</b>
+    @Html.TextBoxFor(x => x.BirimAd, new { @class = "form-control" })
+
+    <br />
+    <button class="btn btn-info"> Departman Ekle </button>
+</form>
+
+
+

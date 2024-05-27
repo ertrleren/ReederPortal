@@ -1,0 +1,21 @@
+﻿@model ReederPortal.Models.Seviye
+@{
+    ViewData["Title"] = "SeviyeGetir";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+@using (Html.BeginForm("SeviyeGuncelle", "Seviye", FormMethod.Post))
+{
+    <b>Departman ID</b>
+    @Html.TextBoxFor(x => x.SeviyeID, new { @class = "form-control" })
+
+    <br />
+
+    <b>Departman Adı</b>
+    @Html.TextBoxFor(x => x.SeviyeAd, new { @class = "form-control" })
+
+    <br />
+    <button class="btn btn-default" style="background-color:cornflowerblue"> Seviye Güncelle </button>
+}
+
+

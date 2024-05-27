@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ReederPortal
+build_property.RootNamespace = ReederPortal
+build_property.ProjectDir = C:\Users\Ertugrul\Desktop\Projeler\ReederPortal\ReederPortal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Ertugrul\Desktop\Projeler\ReederPortal\ReederPortal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Default/BirimDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxCaXJpbURldGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Default/BirimGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxCaXJpbUdldGlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Default/YeniBirim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxZZW5pQmlyaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Personelim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxpbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Personelim/PersonelGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxpbVxQZXJzb25lbEdldGlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Personelim/YeniPersonel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxpbVxZZW5pUGVyc29uZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Seviye/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V2aXllXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Seviye/SeviyeDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V2aXllXFNldml5ZURldGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Seviye/SeviyeGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V2aXllXFNldml5ZUdldGlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Seviye/YeniSeviye.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V2aXllXFllbmlTZXZpeWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Shared/_TestLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZXN0TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Unvan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW52YW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Unvan/UnvanDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW52YW5cVW52YW5EZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Unvan/UnvanGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW52YW5cVW52YW5HZXRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Unvan/YeniUnvan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW52YW5cWWVuaVVudmFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertugrul/Desktop/Projeler/ReederPortal/ReederPortal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hf28croy60

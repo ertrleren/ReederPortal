@@ -1,0 +1,22 @@
+﻿@model ReederPortal.Models.Seviye
+@{
+    ViewData["Title"] = "YeniSeviye";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+
+<form class="form-group" method="post">
+
+    <b>Seviye Adı</b>
+    @Html.TextBoxFor(x => x.SeviyeAd, new { @class = "form-control" })
+
+
+
+
+
+    <br />
+    <button class="btn btn-info"> Seviye Ekle </button>
+</form>
+
+

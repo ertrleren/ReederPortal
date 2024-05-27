@@ -1,0 +1,21 @@
+﻿@model ReederPortal.Models.Unvan
+@{
+    ViewData["Title"] = "YeniUnvan";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+
+<form class="form-group" method="post">
+
+    <b>Departman Adı</b>
+    @Html.TextBoxFor(x => x.UnvanAd, new { @class = "form-control" })
+
+    
+
+    
+
+    <br />
+    <button class="btn btn-info"> Unvan Ekle </button>
+</form>
+

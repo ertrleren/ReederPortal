@@ -1,0 +1,31 @@
+﻿@using ReederPortal.Models
+@model List<Birim>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+<a href="~/Default/YeniBirim/" class="btn btn-primary"> Yeni Departman Ekle</a>
+<br />
+<br />
+<table class="table table-hover">
+    <tr>
+        <th><b>ID</b></th>
+        <th><b>Departman Adı</b></th>
+        <th><b>Sil</b></th>
+        <th><b>Güncelle</b></th>
+        <th><b>Detaylar</b></th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <th>@x.BirimID </th>
+            <th>@x.BirimAd</th>
+            <th><a href="/Default/BirimSil/@x.BirimID" class="btn btn-danger">Sil</a></th>
+            <th><a href="/Default/BirimGetir/@x.BirimID" class="btn btn-success">Güncelle</th>
+            <th><a href="/Default/BirimDetay/@x.BirimID" class="btn btn-defould" style="background-color:#dee61d">Detaylar</th>
+        </tr>
+    }
+</table>
+

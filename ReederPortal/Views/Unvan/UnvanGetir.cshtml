@@ -1,0 +1,19 @@
+﻿@model ReederPortal.Models.Unvan
+@{
+    ViewData["Title"] = "UnvanGetir";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+@using (Html.BeginForm("UnvanGuncelle", "Unvan", FormMethod.Post))
+{
+    <b>Departman ID</b>
+    @Html.TextBoxFor(x => x.UnvanID, new { @class = "form-control" })
+
+    <br />
+
+    <b>Departman Adı</b>
+    @Html.TextBoxFor(x => x.UnvanAd, new { @class = "form-control" })
+
+    <br />
+    <button class="btn btn-default" style="background-color:cornflowerblue"> Unvan Güncelle </button>
+}
